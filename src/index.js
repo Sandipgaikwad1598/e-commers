@@ -1,17 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+// import {Add,sub,mul,div}from "./App";
+// import * as d from "./App";
+import Movies from './Movies';
+import list from './list'; 
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+import './Movies.css';
+// console.log(list[0]);
+// }
+function n(val){
+  return(
+    <>
+    <Movies
+   image={val.image}
+   title={val.title}
+   link={val.link}
+  />
+    </>
+  )
+}
+ReactDOM.render(
+  <>
+  <App/>
+  
+  {list.map(n)}
+  
+  </>,document.getElementById('root')
+  
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

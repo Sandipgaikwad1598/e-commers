@@ -1,0 +1,36 @@
+.Cards{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    border: 0.5px solid black;
+    margin: 90px;
+    margin-right: 25px;
+    /* justify-content: center; */
+    float: left;
+    border-radius: 5px;
+    /* white-space: 1; */
+
+}
+h3{
+    font-size: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.link{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: black;
+}
