@@ -1,13 +1,17 @@
 import React from "react";
+import Movies from "./Movies";
 function App(){
     return( 
         <>
         <div className="header">
-        <h3>NetFilx</h3>
-        <h1>The top 10 Web series</h1>
+        <h1>Available Products</h1>
         </div>
-        
-        <hr></hr>
+        <form>
+                <select>
+                <option>Electronic</option>
+                <option>Computer</option>
+                </select>
+            </form>
         </>
     )
 }

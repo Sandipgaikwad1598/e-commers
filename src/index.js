@@ -14,7 +14,7 @@ function n(val){
     <Movies
    image={val.image}
    title={val.title}
-   link={val.link}
+  //  link={val.link}
   />
     </>
   )

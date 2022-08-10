@@ -1,7 +1,13 @@
+/* .main{
+    display: flex;
+    grid-template: repeat(2, 1fr)/100%;
+    column-gap: 2px;
+} */
+
 .Cards{
     display: grid;
-    width: 400px;
-    height: 400px;
+    width: 10rem;
+    height: 10rem;
     border: 0.5px solid black;
     margin: 90px;
     margin-right: 25px;
@@ -19,13 +25,16 @@ h3{
     justify-content: space-around;
 }
 img{
-    width: 400px;
-    height: 200px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 5px;
 }
 h1{
     text-align: center;
-    color: red;
+    /* color: red; */
+}
+.header{
+    background-color: rgb(80, 80, 238);
 }
 .link{
     text-align: center;
